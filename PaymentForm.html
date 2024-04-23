@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payment Form</title>
+        <link rel="stylesheet" href ="form.css">
+       
+
+    </head>
+    <body>
+        <div class="container">
+        <form action="" method="get">
+            <h1 class="main_heading" >Payment Form</h1>
+            <h2> Contact Information</h2>
+            <p>Required fileds are followed by *</p>
+            <p>Name: * <input type="text" name="name" required></p>
+            <fieldset><legend>Gender *</legend> <p>Male <input type="radio" name="gender" id="Male" required > Female<input type ="radio" name="gender" id="Female" required ></p></fieldset>
+           
+            <p>Desigination :<textarea name="Adress" id="Adress" cols="100" rows="7"></textarea></p>
+            <p>Email: *<input type="email" id="email" required></p>
+            <p>Phone Number: * <input type="number" name ="Pincode" id ="Pincode" required></p>
+            <hr>
+            <h2>
+                Payment Information
+            </h2>
+            <p>Card Type: * <select name ="card_type" id="card_type" required>
+                <option value="">--select a UPI Type--</option>
+                <option value ="Visa">G-Pay</option>
+                <option value ="Rupay">Paytm</option>
+                <option value ="Juspay">PhonePe</option>
+                <option value = " MasterCard">BHIM</option>
+ 
+            </select></p>
+           
+
+
+            <p>
+                UPI ID *<input type="number" name ="card_name" id="card_number" required>
+            </p>
+            
+
+
+            
+            <p><a class="btn btn-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSd-NsiTAbNWc3kyUi1LptWA8WVqlP3I2tu_q8rdnMzKDHJGOg/viewform?usp=sf_link" target="_blank">Pay Now </a></p>
+        </form> 
+    </div>
+
+
+    </body>
+</html>
